@@ -24,7 +24,8 @@
     0 0 0 7 0 4
     0 0 0 0 0 0 
   ```
-  gdzie każdy nowy wiersz oznacza kolejny wierzchołek, liczby różne od zera oznaczają przepustowości krawędzi łączącej dane dwa wierchołki (w pierwszym wierszu krawędż łącząca wierzchołek 0 z wierzchołkiem 1 ma przepustowość równą 5).
+  gdzie każdy nowy wiersz oznacza kolejny wierzchołek, a liczby różne od zera oznaczają przepustowości krawędzi łączącej dane dwa wierzchołki (np. w pierwszym wierszu krawędź łącząca wierzchołek 0 z wierzchołkiem 1 ma przepustowość równą 5).
+  
   -**lista sąsiedztwa**, np:
   ```
   0 1 16
@@ -38,5 +39,5 @@
   4 3 7
   4 5 4
   ```
-  gdzie w każdym wierszu pierwsza liczba oznacza wierzchołek 
+  gdzie w każdym wierszu pierwsza liczba oznacza wierzchołek z którego wychodzi krawędź, druga liczba to numer wierzchołka w którym kończy się krawędź, a trzecia liczba oznacza przepustowość danej krawędzi (np. w pierwszym wierszu krawędź łącząca wierzchołek 0 z wierzchołkiem 1 ma przepustowość 16).
         
